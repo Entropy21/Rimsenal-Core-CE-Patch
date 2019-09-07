@@ -319,7 +319,7 @@
 					<recoilAmount>1.17</recoilAmount>
 					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 					<hasStandardCommand>true</hasStandardCommand>
-					<defaultProjectile>Bullet_GeugGwang</defaultProjectile>
+					<defaultProjectile>Bullet_GeugGwang_CE</defaultProjectile>
 					<warmupTime>0.6</warmupTime>
 					<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
 					<range>80</range>
@@ -365,10 +365,6 @@
 						</li>
 					</tools>
 				</value>
-			</li>
-			
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName="YP_GeugGwang"]</xpath>
 			</li>
 			
 			<!-- ==========  YP Vector Shot =========== -->
